@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unitree Go2导航功能
 本项目基于https://github.com/FishPlusDragon/unitree-go2-slam-toolbox项目的slam建图部分，完成了机器狗nav2部分代码的更新。
 ## 实现功能
@@ -54,3 +55,6 @@ ros2 launch go2_navigation2 go2_save_map.launch.py
 ```bash
 ros2 launch go2_navigation2 go2_nav2.launch.py
 ```
+=======
+基于https://github.com/FishPlusDragon/unitree-go2-slam-toolbox项目的slam建图部分，完成了机器狗nav2部分代码的更新。
+>>>>>>> cd1934147ab57ff16b7e05772717667c6f9bb0d1
