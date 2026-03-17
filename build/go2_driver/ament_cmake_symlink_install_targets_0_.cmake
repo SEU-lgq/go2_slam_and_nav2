@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lgq/go2_ws_toolbox/build/go2_driver/driver" "/home/lgq/go2_ws_toolbox/build/go2_driver/footprint_to_link" "/home/lgq/go2_ws_toolbox/build/go2_driver/lowstate_to_imu" "TARGETS" "driver" "footprint_to_link" "lowstate_to_imu" "DESTINATION" "lib/go2_driver")

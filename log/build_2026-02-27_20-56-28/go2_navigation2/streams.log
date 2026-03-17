@@ -1,0 +1,56 @@
+[0.019s] Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lgq/go2_ws_toolbox/build/go2_navigation2 -- -j20 -l20
+[0.037s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.188s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.189s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.239s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/lgq/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.251s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.284s] -- Found unitree_go: 0.0.0 (/home/lgq/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[0.302s] -- Found unitree_api: 0.0.0 (/home/lgq/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/cmake)
+[0.311s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.323s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.364s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.364s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lgq/go2_ws_toolbox/src/unitree-go2-slam-toolbox/src/go2_navigation2/include>
+[0.365s] -- Configured cppcheck exclude dirs and/or files: 
+[0.365s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.365s] -- Added test 'lint_cmake' to check CMake code style
+[0.365s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.366s] -- Added test 'uncrustify' to check C / C++ code style
+[0.366s] -- Configured uncrustify additional arguments: 
+[0.366s] -- Added test 'xmllint' to check XML markup files
+[0.366s] -- Configuring done
+[0.372s] -- Generating done
+[0.374s] -- Build files have been written to: /home/lgq/go2_ws_toolbox/build/go2_navigation2
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.401s] [100%] Built target navigation
+[0.417s] Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lgq/go2_ws_toolbox/build/go2_navigation2 -- -j20 -l20
+[0.419s] Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lgq/go2_ws_toolbox/build/go2_navigation2
+[0.427s] -- Install configuration: ""
+[0.427s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/lib/go2_navigation2/navigation
+[0.427s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/launch
+[0.427s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/launch/go2_navigation_bringup.launch.py
+[0.427s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/launch/go2_save_map.launch.py
+[0.427s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/launch/go2_nav2.launch.py
+[0.428s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/config
+[0.428s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/config/nav2_params.yaml
+[0.428s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/maps
+[0.428s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/package_run_dependencies/go2_navigation2
+[0.428s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/parent_prefix_path/go2_navigation2
+[0.428s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/ament_prefix_path.sh
+[0.429s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/ament_prefix_path.dsv
+[0.429s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/path.sh
+[0.429s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/path.dsv
+[0.429s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.bash
+[0.429s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.sh
+[0.429s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.zsh
+[0.429s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.dsv
+[0.429s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.dsv
+[0.430s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/packages/go2_navigation2
+[0.430s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/cmake/go2_navigation2Config.cmake
+[0.430s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/cmake/go2_navigation2Config-version.cmake
+[0.430s] -- Up-to-date: /home/lgq/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.xml
+[0.432s] Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lgq/go2_ws_toolbox/build/go2_navigation2

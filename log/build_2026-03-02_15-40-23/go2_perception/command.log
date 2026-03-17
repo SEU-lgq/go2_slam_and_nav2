@@ -1,0 +1,4 @@
+Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lgq/go2_ws_toolbox/build/go2_perception -- -j20 -l20
+Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lgq/go2_ws_toolbox/build/go2_perception -- -j20 -l20
+Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lgq/go2_ws_toolbox/build/go2_perception
+Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lgq/go2_ws_toolbox/build/go2_perception

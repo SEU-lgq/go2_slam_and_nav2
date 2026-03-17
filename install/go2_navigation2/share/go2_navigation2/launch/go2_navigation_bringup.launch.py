@@ -1,0 +1,1 @@
+/home/lgq/go2_ws_toolbox/src/unitree-go2-slam-toolbox/src/go2_navigation2/launch/go2_navigation_bringup.launch.py

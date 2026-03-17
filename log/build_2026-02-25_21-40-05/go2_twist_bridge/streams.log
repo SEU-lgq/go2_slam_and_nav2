@@ -1,0 +1,68 @@
+[0.016s] Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_twist_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lgq/ros2_ws/install/speech_processor:/home/lgq/ros2_ws/install/lidar_processor:/home/lgq/ros2_ws/install/go2_robot_sdk:/home/lgq/ros2_ws/install/coco_detector:/home/lgq/go2_ws/install/go2_robot_sdk:/home/lgq/go2_ws/install/coco_detector:/opt/ros/humble /usr/bin/cmake /home/lgq/go2_ws_toolbox/src/unitree-go2-slam-toolbox/src/base/go2_twist_bridge -DCMAKE_INSTALL_PREFIX=/home/lgq/go2_ws_toolbox/install/go2_twist_bridge
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.222s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.232s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.342s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.433s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.472s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.476s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.534s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.535s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/lgq/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.547s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.553s] -- Looking for pthread.h
+[0.601s] -- Looking for pthread.h - found
+[0.601s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.649s] -- Found Threads: TRUE  
+[0.682s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.690s] -- Found unitree_api: 0.0.0 (/home/lgq/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/cmake)
+[0.703s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.755s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.755s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lgq/go2_ws_toolbox/src/unitree-go2-slam-toolbox/src/base/go2_twist_bridge/include>
+[0.755s] -- Configured cppcheck exclude dirs and/or files: 
+[0.756s] -- Added test 'lint_cmake' to check CMake code style
+[0.757s] -- Added test 'uncrustify' to check C / C++ code style
+[0.757s] -- Configured uncrustify additional arguments: 
+[0.758s] -- Added test 'xmllint' to check XML markup files
+[0.758s] -- Configuring done
+[0.763s] -- Generating done
+[0.765s] -- Build files have been written to: /home/lgq/go2_ws_toolbox/build/go2_twist_bridge
+[0.769s] Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_twist_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lgq/ros2_ws/install/speech_processor:/home/lgq/ros2_ws/install/lidar_processor:/home/lgq/ros2_ws/install/go2_robot_sdk:/home/lgq/ros2_ws/install/coco_detector:/home/lgq/go2_ws/install/go2_robot_sdk:/home/lgq/go2_ws/install/coco_detector:/opt/ros/humble /usr/bin/cmake /home/lgq/go2_ws_toolbox/src/unitree-go2-slam-toolbox/src/base/go2_twist_bridge -DCMAKE_INSTALL_PREFIX=/home/lgq/go2_ws_toolbox/install/go2_twist_bridge
+[0.771s] Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_twist_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lgq/ros2_ws/install/speech_processor:/home/lgq/ros2_ws/install/lidar_processor:/home/lgq/ros2_ws/install/go2_robot_sdk:/home/lgq/ros2_ws/install/coco_detector:/home/lgq/go2_ws/install/go2_robot_sdk:/home/lgq/go2_ws/install/coco_detector:/opt/ros/humble /usr/bin/cmake --build /home/lgq/go2_ws_toolbox/build/go2_twist_bridge -- -j20 -l20
+[0.808s] [ 50%] [32mBuilding CXX object CMakeFiles/twist_bridge.dir/src/twist_bridge.cpp.o[0m
+[7.057s] [100%] [32m[1mLinking CXX executable twist_bridge[0m
+[7.300s] [100%] Built target twist_bridge
+[7.306s] Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_twist_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lgq/ros2_ws/install/speech_processor:/home/lgq/ros2_ws/install/lidar_processor:/home/lgq/ros2_ws/install/go2_robot_sdk:/home/lgq/ros2_ws/install/coco_detector:/home/lgq/go2_ws/install/go2_robot_sdk:/home/lgq/go2_ws/install/coco_detector:/opt/ros/humble /usr/bin/cmake --build /home/lgq/go2_ws_toolbox/build/go2_twist_bridge -- -j20 -l20
+[7.308s] Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_twist_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lgq/ros2_ws/install/speech_processor:/home/lgq/ros2_ws/install/lidar_processor:/home/lgq/ros2_ws/install/go2_robot_sdk:/home/lgq/ros2_ws/install/coco_detector:/home/lgq/go2_ws/install/go2_robot_sdk:/home/lgq/go2_ws/install/coco_detector:/opt/ros/humble /usr/bin/cmake --install /home/lgq/go2_ws_toolbox/build/go2_twist_bridge
+[7.313s] -- Install configuration: ""
+[7.313s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/lib/go2_twist_bridge/twist_bridge
+[7.314s] -- Set runtime path of "/home/lgq/go2_ws_toolbox/install/go2_twist_bridge/lib/go2_twist_bridge/twist_bridge" to ""
+[7.314s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/package_run_dependencies/go2_twist_bridge
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/parent_prefix_path/go2_twist_bridge
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.sh
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.dsv
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.sh
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.dsv
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.bash
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.sh
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.zsh
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.dsv
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.dsv
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/packages/go2_twist_bridge
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig.cmake
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig-version.cmake
+[7.315s] -- Installing: /home/lgq/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.xml
+[7.317s] Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_twist_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lgq/ros2_ws/install/speech_processor:/home/lgq/ros2_ws/install/lidar_processor:/home/lgq/ros2_ws/install/go2_robot_sdk:/home/lgq/ros2_ws/install/coco_detector:/home/lgq/go2_ws/install/go2_robot_sdk:/home/lgq/go2_ws/install/coco_detector:/opt/ros/humble /usr/bin/cmake --install /home/lgq/go2_ws_toolbox/build/go2_twist_bridge

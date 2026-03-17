@@ -1,0 +1,57 @@
+[0.021s] Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lgq/go2_ws_toolbox/src/unitree-go2-slam-toolbox/src/base/go2_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lgq/go2_ws_toolbox/install/go2_core
+[0.040s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.150s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.176s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.179s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.184s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.217s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.218s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/lgq/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.227s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.256s] -- Found unitree_go: 0.0.0 (/home/lgq/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[0.272s] -- Found unitree_api: 0.0.0 (/home/lgq/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/cmake)
+[0.279s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.289s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[0.291s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.338s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.348s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.397s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.397s] -- Configured cppcheck include dirs: 
+[0.397s] -- Configured cppcheck exclude dirs and/or files: 
+[0.398s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.398s] -- Added test 'lint_cmake' to check CMake code style
+[0.399s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.402s] -- Added test 'uncrustify' to check C / C++ code style
+[0.402s] -- Configured uncrustify additional arguments: 
+[0.402s] -- Added test 'xmllint' to check XML markup files
+[0.403s] -- Configuring done
+[0.407s] -- Generating done
+[0.410s] -- Build files have been written to: /home/lgq/go2_ws_toolbox/build/go2_core
+[0.418s] Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lgq/go2_ws_toolbox/src/unitree-go2-slam-toolbox/src/base/go2_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lgq/go2_ws_toolbox/install/go2_core
+[0.420s] Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lgq/go2_ws_toolbox/build/go2_core -- -j20 -l20
+[0.453s] Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lgq/go2_ws_toolbox/build/go2_core -- -j20 -l20
+[0.456s] Invoking command in '/home/lgq/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lgq/go2_ws_toolbox/build/go2_core
+[0.464s] -- Install configuration: ""
+[0.464s] -- Execute custom install script
+[0.465s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/launch/go2_robot_localization.launch.py
+[0.475s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/launch/go2_start.launch.py
+[0.483s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/rviz2/display.rviz
+[0.495s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/config/go2_ekf_params.yaml
+[0.509s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/ament_index/resource_index/package_run_dependencies/go2_core
+[0.522s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/ament_index/resource_index/parent_prefix_path/go2_core
+[0.533s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/environment/ament_prefix_path.sh
+[0.540s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/environment/ament_prefix_path.dsv
+[0.552s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/environment/path.sh
+[0.568s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/environment/path.dsv
+[0.582s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/local_setup.bash
+[0.595s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/local_setup.sh
+[0.609s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/local_setup.zsh
+[0.622s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/local_setup.dsv
+[0.632s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/package.dsv
+[0.648s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/ament_index/resource_index/packages/go2_core
+[0.664s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/cmake/go2_coreConfig.cmake
+[0.678s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/cmake/go2_coreConfig-version.cmake
+[0.688s] -- Symlinking: /home/lgq/go2_ws_toolbox/install/go2_core/share/go2_core/package.xml
+[0.702s] Invoked command in '/home/lgq/go2_ws_toolbox/build/go2_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lgq/go2_ws_toolbox/build/go2_core
